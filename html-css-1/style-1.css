@@ -19,14 +19,7 @@ body {
     box-sizing: border-box ;
   }
   
-      .circle-one {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-color: skyblue;
-    display: inline-block;
-  }
-  
+      
   .container-two {
     width: 100%;
     border: 5px dotted black;
