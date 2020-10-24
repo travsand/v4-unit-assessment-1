@@ -1,12 +1,13 @@
 //////////////////STEP 1////////////////////
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
+var groceries = ["milk", "chips", "pears"]
 //CODE HERE
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
-//CODE HERE
+var yourName = "Travis" //CODE HERE
 
 //////////////////STEP 3////////////////////
 /*
@@ -15,6 +16,11 @@
     For example: if the string 'Joseph' is passed in for the variable x 
     the function would return 'Joseph's Grocery List'.
 */
+
+function setGroceryListTitle(x){
+    return x + "'s Grocery List"
+}
+x(Joseph)
 
 //CODE HERE
 
@@ -26,6 +32,11 @@
     that takes care of some of the work for getting your page to display correctly.
 */
 
+function addItem(item){
+    const groceries = ["milk", "chips", "pears"]
+
+}
+
 //CODE HERE
 
 //////////////////STEP 5////////////////////
@@ -36,6 +47,9 @@
     Then, invoke the displayData() function inside of your removeItem function.
 */
 
+function removeItem(index){
+
+}
 //CODE HERE
 
 //////////////////STEP 6////////////////////
@@ -49,4 +63,6 @@
     with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 */
 
-//CODE HERE
+function checkGroceryCount(groceries){
+    
+}//CODE HERE

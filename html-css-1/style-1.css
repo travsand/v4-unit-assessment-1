@@ -1,0 +1,39 @@
+head{
+    top{
+        margin: 0
+        padding: 10
+    }
+}
+
+
+body {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  
+  .container-one {
+    width: 100%;
+    border: 5px dotted black;
+    padding: 5px;
+    box-sizing: border-box ;
+  }
+  
+      .circle-one {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: skyblue;
+    display: inline-block;
+  }
+  
+  .container-two {
+    width: 100%;
+    border: 5px dotted black;
+    padding: 5px;
+    box-sizing: border-box ;
+    margin-top: 10px; 
+  }
+  
+    
+ 
