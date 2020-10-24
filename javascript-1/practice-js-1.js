@@ -37,9 +37,15 @@ function sum(num1, num2){
 
 
 
-function lovesCodeChecker(){
+function lovesCodeChecker(x){
+  if (x = "true"){
+    return true 
+  } else {
+    return false
+  }
+}
 
-}//CODE HERE
+//CODE HERE
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -49,9 +55,16 @@ function lovesCodeChecker(){
   If the number is even, return the string: 'the number is even'.
 */
 
-function oddChecker(){
+function oddChecker(num){
+  if (num % 2 !== 0){
+    return "the number is odd"
+  } else{
+    return "the number is even"
+  }
 
-}//CODE HERE
+}
+
+//CODE HERE
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -61,8 +74,10 @@ function oddChecker(){
 */
 
 function iLove(name, love){
+  return name + "loves " + love;
+}
 
-}//CODE HERE
+//CODE HERE
 
 
 //////////////////PROBLEM 8////////////////////
@@ -70,12 +85,13 @@ function iLove(name, love){
 
 const faveColors = ['red', 'green', 'black']
 
+var colorCopy = faveColors.slice(0, 1, 2)
 //CODE HERE
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-//CODE HERE
+ colorCopy.push('blue') //CODE HERE
 
 //////////////////PROBLEM 10////////////////////
 /*
@@ -85,7 +101,7 @@ const faveColors = ['red', 'green', 'black']
 
 const numbers = [1, 2, 3, 4, 5]
 
-//CODE HERE
+var middleNums = numbers.slice(1,4)   //CODE HERE
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -122,7 +138,9 @@ var me = {
   Return the answers array inside of the function.
 */
 
-// CODE HERE
+function bigOrSmall(arr){
+  let answers = []
+}// CODE HERE
 
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -134,7 +152,9 @@ var me = {
   Finally, return the 'reversed' array variable.
 */
 
-//CODE HERE
+function arrayReverser(arr){
+
+}//CODE HERE
 
 //////////////////PROBLEM 14////////////////////
 
@@ -178,7 +198,9 @@ let secondFunctionScope = ['global', 'functional']
   Invoke the callback passing the first item in the array as an argument.
 */
 
-//CODE HERE
+function firstItem(){
+
+}//CODE HERE
 
 //////////////////PROBLEM 16////////////////////
 /* 
@@ -188,7 +210,9 @@ let secondFunctionScope = ['global', 'functional']
   Otherwise, invoke the callback passing in false.
 */
 
-//CODE HERE
+function isItBob(){
+
+}//CODE HERE
 
 //////////////////PROBLEM 17////////////////////
 /*
@@ -196,7 +220,9 @@ let secondFunctionScope = ['global', 'functional']
   Use a for loop to double all numbers in the array and invoke the callback, passing in the doubled array.
 */
 
-//CODE HERE
+function giveMeDoubles(){
+
+}//CODE HERE
 
 //////////////////PROBLEM 18////////////////////
 /*
@@ -206,4 +232,6 @@ let secondFunctionScope = ['global', 'functional']
   Otherwise set it to false.
 */
 
-//CODE HERE
+function carFactory(make, model, year){
+  let 
+}//CODE HERE
